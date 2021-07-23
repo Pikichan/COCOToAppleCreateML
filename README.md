@@ -1,0 +1,2 @@
+# COCOToAppleCreateML
+COCOの写真を、AppleのCreateMLの物体認識で扱うデータセットの形に変換するプログラムを置いておくリポジトリ。
