@@ -30,4 +30,10 @@ Enter coco directory path: /Users/Pikichan/coco/
 
 # 鳥じゃない物体を認識するモデルのデータセットを作りたい時
 ちょこっと書き換えるだけで簡単にできる。
-(絶賛執筆中)
+1. https://github.com/Pikichan/COCOToAppleCreateML/blob/3b61ab81fd07a726ce20db738449e483fcb326b8/cocoDataToAppleJson.py#L11  
+の`"bird"`の部分を認識したい物体の名前に変更する。  
+ここは個人の好きに名前をつけて良い。
+2. https://github.com/Pikichan/COCOToAppleCreateML/blob/3b61ab81fd07a726ce20db738449e483fcb326b8/cocoDataToAppleJson.py#L37  
+のidを、認識したい物体のidに変更する。  
+どの物体にどのidが振られているかは以下のサイトが詳しい。  
+https://tech.amikelive.com/node-718/what-object-categories-labels-are-in-coco-dataset/
